@@ -1,0 +1,110 @@
+@media screen and (max-width: 992px)
+{
+/*Header_Sub_Menu_Position*/
+    .submenu
+    {
+        margin-left: 10%;  
+    }
+/*Bouton_recherche_swap*/
+    .filters.margF
+    {
+        flex-flow: column;
+        align-items: flex-start;
+    }
+/*Section-Hébergements_Changements_Proportions_Placement*/
+    #hebergements
+    {
+        flex-direction: column;
+    }
+    
+    article
+    {
+        width: 100%;
+        margin: 2% 0% 2% 0%;
+    }
+    .card:hover
+    {
+        transform: none;
+        box-shadow: 7px 7px 10px #0065FC;
+    }
+
+    aside 
+    {
+        width: 100%;
+        margin: 2% 0% 2% 0%;
+    }
+    .containerPp
+    {
+        align-items: center;
+        margin: 0% 10%;
+    }
+    .cardPp
+    {
+        max-width: 90%;
+        height: 150px;
+        margin-bottom: 5%;
+    }
+    .linkPp /*Prend_toute_la_card*/
+    {
+        width: 100%;
+    }
+    .lieuPp img
+    {
+        width: 220px ;
+    }
+    .carddetailPp h3
+    {
+        font-size: 15px;
+    }
+    .carddetailPp p 
+    {
+        font-size: 13px;
+    }
+    .starPp
+    {
+        font-size: 11px;
+    }
+   .cardPp:hover
+    {
+        transform: none;
+        box-shadow: 7px 7px 10px #0065FC;
+    }
+
+/*Section_Activités*/
+    .containerA /*Structure_container*/
+    {
+        flex-flow: wrap;
+        justify-content: space-between;
+        margin-top: 4%;
+        height: auto;
+    }
+
+    .tab /*Ajustement_Dimensions_Cards*/
+    {
+        height: 200px;
+        width: 45%;
+        margin-bottom: 5%;
+    }
+    .tabi /*Ajustement_Hauteur_Img*/
+    {
+        height: 74%;
+    }
+    .tabt /*Ajustement_Taille_Texte*/
+    {
+        font-size: 14px;
+        margin: 4% 7%;
+    }
+    figure:hover
+    {
+        transform: none;
+        box-shadow: 7px 7px 10px #0065FC;
+    }
+
+    /*Footer*/
+    .foot
+    {
+        display: flex;
+        flex-direction: column;
+    }    
+
+}

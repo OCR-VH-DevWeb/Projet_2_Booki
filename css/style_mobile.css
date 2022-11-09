@@ -1,0 +1,280 @@
+@media screen and (max-width: 768px)
+{
+    body
+    {
+        color: black;
+    }
+    header
+    {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    .home
+    {
+        margin: 0% 0% 3% 0%;
+    }
+    #logo
+    {
+        width: 110px;
+        
+    }
+/*Navigation*/ 
+    .menu
+    {
+        width: 100%;
+    }
+    .submenu 
+    {
+        padding: 0%;
+        margin: 0%;
+        font-size: 16px;
+    }
+    .submenu li
+    {
+        width: 50%;
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 3%;
+        border-bottom: 3px solid #f2f2f2;    
+    }
+    .submenu li:hover
+    {
+        border-top: none;
+        border-bottom: #0065FC 3px solid;
+    }
+    .theme
+    {
+        margin: 8% 5% 0% 5%;
+    }
+    .theme h1
+    {
+        font-size: 22px;
+    }
+    .theme p
+    {
+        font-size: 15px;
+        margin-top: 5%;
+    }
+/*Form_Recherche*/ 
+    .conteneur_location
+    {
+        margin: 10% 5%;
+        justify-content: center;
+    }
+    .map_mark /*Adaptation_mobile_barre_recherche*/
+    {
+        width: 55px;
+        height: 52px;
+        padding-left: 6%;
+    }
+    form
+    {
+        width: 100%;
+    }
+    .search_button{
+        width: 100%;
+    }
+    .search_field /*Texte_zone*/
+    {
+        width: 100%;
+        padding: 16px 15px;
+        font-size: 16px;
+    }
+    .hideformobile
+    {
+        display: none;
+    }
+    .search_button /*Apparence_bouton*/
+    {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        width: 54px;
+        height: 52px;
+        margin-left: 10%;
+    }
+    .search_button i
+    {
+        display: block;
+        padding-top: 7px;
+        padding-bottom: 8px;
+        padding-left: 3px;
+        padding-right: 2px;
+    }
+
+    /*Filtres disposition*/
+    .filters.margF
+    {
+        margin: 7% 0% 0% 5%;
+        flex-flow: wrap;
+    }
+    .margT
+    {
+        width: 100%;
+    }
+    .margT h3
+    {
+        margin: 0%;
+        font-size: 18px;
+        margin-bottom: 1%;
+    }  
+    .padText
+    {
+        font-size: 15px;
+    }  
+
+    /*Bonus_Infos*/
+    .bonus
+    {
+        margin: 9% 0% 6% 4%;
+    }
+    .info
+    {
+        font-size: 15px;
+    }
+    .info i
+    {
+        font-size: 15px;
+        width: 34px;
+        height: 26px;
+        margin:  0% 3% 6% 0%;
+    }
+    main
+    {
+        margin: 0%;
+    }
+    #hebergements
+    {
+        flex-direction: column-reverse;
+    }
+    aside /*Populaires_premier*/
+    {
+        width: 100%;
+        border-radius: 0px;
+        padding: 4% 0%;
+    }
+    .titlePp
+    {
+        margin-bottom: 0%;
+        padding: 0% 5% 2% 5%;
+    }
+    .containerPp
+    {
+        flex-flow: column;
+        margin: 0%;
+    }
+    .cardPp
+    {
+        width: 100%;
+        height: 120px;
+        margin-bottom: 3%;
+    }
+    .lieuPp img
+    {
+        width: 105px;
+    }
+    .carddetailPp h3
+    {
+        font-size: 14px;
+    }
+    .carddetailPp p
+    {
+        margin: 0% 16% 3% 0%;
+    }
+    .starPp
+    {
+        font-size: 10px;
+    }
+
+    article /*Hébergements_Seconde_Position*/
+    {
+        width: 100%;
+        background-color: white;
+        padding: 0% 5% 0% 5%;
+    }
+    .containerH
+    {
+        width: 100%;
+        flex-direction: column;    
+    }
+    .titleH
+    {
+        margin-bottom: 5%;
+    }
+    .titleH h2
+    {
+        margin-bottom: 0;
+    }
+    /*Ajustement_Card*/
+    .card 
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 3%;
+    }
+    .lieu img
+    {
+        height: 100px;
+    }
+    .carddetail h3
+    {
+        font-size: 14px;
+    }
+
+    /*Activités_à_Marseille*/
+    .titleA
+    {
+        margin: 6% 0%;
+    }
+    .titleA h2
+    {
+        margin-left: 5%;
+    }
+
+    .containerA
+    {
+        padding: 0% 5%;
+        flex-flow: column;
+    }
+    .mob
+    {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 7%;
+    }
+    .mobi /*Détails_cards_Height*/
+    {
+        height: 72%;
+    }
+    .mobt
+    {
+        font-size: 14px;
+        margin: 3% 5% 3% 5%;
+    }
+
+    /*Footer*/
+    footer
+    {
+        height: 100%;
+        flex-direction: column;
+        padding: 8% 0% 5% 8%;
+    }
+    .foot
+    {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .foot h3
+    {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .choice
+    {
+        margin: 0%;
+    }
+    .choice li
+    {
+        font-size: 14px;
+    } 
+}    
